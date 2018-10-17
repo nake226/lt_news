@@ -9,10 +9,10 @@ export default new Router({
   routes: [
     {
       path: '*',
-      redirect: '/'
+      redirect: '/lt_news'
     },
     {
-      path: '/',
+      path: '/lt_news',
       name: 'news',
       component: News,
     }
