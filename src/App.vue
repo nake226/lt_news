@@ -1,10 +1,6 @@
 <template>
   <div id="app">
-    <header>
-      <span>Vue.js PWAで〜す！</span>
-    </header>
     <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
       <router-view></router-view>
     </main>
   </div>
@@ -30,7 +26,7 @@ body {
 
 main {
   text-align: center;
-  margin-top: 40px;
+  margin: auto;
 }
 
 header {
@@ -50,5 +46,18 @@ header span {
   font-weight: 400;
   box-sizing: border-box;
   padding-top: 16px;
+}
+.callout select {
+  background: #666666;
+  width: 30%;
+  margin: 0 auto 20px;
+  height: auto;
+  color: #eee;
+  font-weight: bold;
+  text-align: center;
+  height: 30px;
+  font-size: 14px;
+  border: none;
+  padding: 0 0 0 5px;
 }
 </style>
