@@ -8,9 +8,13 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: '*',
+      redirect: '/lt_news'
+    },
+    {
+      path: '/lt_news',
       name: 'news',
-      component: News
+      component: News,
     }
   ]
 })
